@@ -2,6 +2,39 @@ html {
     font-size: 18px;
 }
 
-header {
-    background: (../../resources/images/glasses-bg.png);
+nav {
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 960px;
+}
+
+nav img {
+    height: 1.5rem;
+    padding: 1rem 1rem 1rem 2rem;
+}
+
+span {
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    padding-right: 2rem;
+}
+
+.main-banner {
+    background-color: white;
+}
+
+.flex-container {
+    background-image: url("../../resources/images/glasses-bg.png");
 }
