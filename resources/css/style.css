@@ -12,12 +12,12 @@ nav {
 }
 
 header {
-    height: 30rem;
     background-image: url("../images/glasses-bg.png");
     background-repeat: no-repeat;
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
+    background-size: cover;
 }
 
 nav img {
@@ -28,6 +28,7 @@ nav img {
 .container div {
     display: flex;
     align-items: center;
+    padding: 1.5rem 5rem;
 }
 
 span {
@@ -47,12 +48,21 @@ li {
     color: white;
 }
 
-.main-banner h1 {
+.main-banner {
     background-color: white;
     font-size: 2rem;
     padding: 1.5rem 5rem;
     font-weight: bold;
     line-height: 1.2;
+    margin-right: -8em;
+}
+
+.flex-container {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    width: 960px;
+    justify-content: flex-end;
 }
 
 
@@ -107,6 +117,7 @@ li {
 
 footer {
     background-color: azure;
+    margin-top: 5rem;
 }
 
 footer img {
